@@ -17,10 +17,10 @@ export default function Header() {
       <div className={styles.container}>
         <div className={styles.content}>
           <h1 className={styles.title}>Soy Won</h1>
-          <p className={styles.subtitle}>Full Stack Engineer | React • Next.js • Laravel</p>
+          <p className={styles.subtitle}>Full Stack Engineer | PHP • Laravel • React</p>
           <div className={styles.contactInfo}>
             <a href="mailto:w.soyeon@gmail.com">📧 w.soyeon@gmail.com</a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">💻 GitHub</a>
+            <a href="https://github.com/sunikko" target="_blank" rel="noopener noreferrer">💻 GitHub</a>
             <a href="https://soywon.hashnode.dev" target="_blank" rel="noopener noreferrer">📝 Blog</a>
             <a href="tel:+447526556912">📱 +44 7526 556912</a>
           </div>

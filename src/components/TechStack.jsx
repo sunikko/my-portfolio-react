@@ -5,11 +5,11 @@ export default function TechStack() {
   const categories = [
     {
       title: 'Backend',
-      tags: ['Laravel', 'PHP', 'MySQL', 'REST APIs', 'Python']
+      tags: ['Laravel', 'PHP', 'MySQL', 'REST APIs', 'Python', 'Django']
     },
     {
       title: 'Frontend',
-      tags: ['React', 'Next.js', 'JavaScript', 'HTML/CSS', 'Vite']
+      tags: ['React', 'Next.js', 'JavaScript', 'HTML/CSS', 'Bootstrap']
     },
     {
       title: 'Mobile',
@@ -17,14 +17,14 @@ export default function TechStack() {
     },
     {
       title: 'Infrastructure',
-      tags: ['AWS', 'Docker', 'Git', 'CI/CD']
+      tags: ['AWS', 'Git', 'CI/CD']
     }
   ]
 
   return (
     <section id="tech" className={styles.tech}>
       <div className={styles.container}>
-        <h2 className={styles.title}>🛠 Tech Stack</h2>
+        <h2 className={styles.title}>Tech Stack</h2>
         <div className={styles.grid}>
           {categories.map((cat, idx) => (
             <div key={idx} className={styles.category}>

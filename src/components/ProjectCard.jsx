@@ -28,7 +28,7 @@ export default function ProjectCard({ icon, title, subtitle, description, tech, 
                 className={styles.link}
                 onClick={() => setShowModal(true)}
               >
-                → View Demo
+                → Demo Video
               </button>
             )}
             {links?.map((link, i) => (

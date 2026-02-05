@@ -11,7 +11,7 @@ export default function VideoModal({ videoId, isOpen, onClose }) {
         <iframe
           className={styles.iframe}
           src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
-          title="Project Demo"
+          title="Demo Video"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
