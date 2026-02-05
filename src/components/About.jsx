@@ -7,8 +7,9 @@ export default function About() {
       <div className={styles.container}>
         <h2 className={styles.title}>About Me</h2>
         <div className={styles.content}>
-          <p>Full Stack Engineer with commercial experience building scalable web applications. I specialize in backend services with Laravel/PHP while also developing modern frontend experiences with React and Next.js. Passionate about clean code, performance optimization, and delivering real-world impact in collaborative teams.</p>
-          <p className={styles.secondPara}>Currently based in London with experience across e-learning platforms, educational tech, and data-driven systems. Experienced with AWS infrastructure and comfortable with AI-assisted development tools.</p>
+          <p>Backend-focused Full Stack Engineer with commercial experience building scalable web applications using Laravel and PHP. </p>
+          <p className={styles.secondPara}>I design reliable backend systems first — APIs, database architecture, and transactional logic — then craft modern user experiences.
+I enjoy solving real-world problems through practical engineering. I’m comfortable working with AWS deployments and AI integrations.</p>
         </div>
       </div>
     </section>

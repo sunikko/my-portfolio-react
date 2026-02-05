@@ -5,42 +5,51 @@ import styles from '../styles/Projects.module.css'
 export default function Projects() {
   const projects = [
     {
-      icon: '⚛️',
-      title: 'Wedding React App',
-      subtitle: 'Modern React Application',
-      description: 'A responsive wedding planning application built with React showcasing component architecture, state management, and modern UI/UX patterns.',
-      tech: ['React', 'JavaScript', 'Responsive Design', 'Component-based'],
-      links: [
-        { label: 'Live Demo', url: 'https://wedding-react-app.vercel.app/' },
-        { label: 'GitHub', url: '#' }
-      ]
-    },
-    {
-      icon: '🎓',
-      title: 'Online Lecture Platform',
-      subtitle: 'Full Stack Development',
-      description: 'A comprehensive e-learning platform with Django backend, React frontend, and integrated payment system for course enrollment.',
-      tech: ['Django', 'Python', 'Stripe API', 'AWS'],
-      videoId: '3rk_n5tsVKM',
-      links: [
-        { label: 'GitHub', url: '#' }
-      ]
-    },
-    {
       icon: '📅',
       title: 'Class Booking System',
-      subtitle: 'Laravel Backend Architecture',
-      description: 'Robust booking system with domain-driven design, transaction safety, and row-level locking to prevent double bookings.',
-      tech: ['Laravel', 'PHP 8', 'MySQL', 'DDD'],
+      subtitle: 'Laravel Backend Architecture | Solo Project',
+      description: 'Built a transaction-safe booking system to practice Laravel best practices and prevent race conditions in concurrent bookings.',
+      tech: ['Laravel', 'PHP 8', 'MySQL', 'REST APIs'],
       links: [
-        { label: 'GitHub', url: '#' },
+        { label: 'GitHub', url: 'https://github.com/sunikko/class-booking-system' },
         { label: 'Blog Post', url: 'https://soywon.hashnode.dev' }
       ]
     },
     {
+      icon: '⚛️',
+      title: 'Wedding React App',
+      subtitle: 'Modern React Application | Solo Project',
+      description: 'A responsive wedding planning application built with React showcasing component architecture, state management, and modern UI/UX patterns.',
+      tech: ['React', 'JavaScript', 'Responsive Design', 'Component-based'],
+      links: [
+        { label: 'Live Demo', url: 'https://wedding-react-app.vercel.app/' },
+        { label: 'GitHub', url: 'https://github.com/sunikko/wedding-react-app' }
+      ]
+    },
+    {
+      icon: '📱',
+      title: 'AI Recording Web App',
+      subtitle: 'Web Audio & AI Integration | Solo Project',
+      description: 'Browser-based voice recording app built with Next.js. Records audio using the MediaRecorder API and integrates with OpenAI for speech-to-text and summarization.',
+      tech: ['Next.js', 'React', 'MediaRecorder API', 'OpenAI API (integration prepared)'],
+      links: [
+        { label: 'Live Demo', url: 'https://ai-recording-web.vercel.app/' },
+        { label: 'GitHub', url: 'https://github.com/sunikko/ai-recording-web' }
+      ]
+    },
+    {
+      icon: '🎓',
+      title: 'E-Learning Platform',
+      subtitle: 'Commercial Project / Backend Engineer @ OxBridge Centre',
+      description: 'Integrated Stripe payment gateway for subscription management  • Designed Django REST APIs serving React frontend  • Deployed on AWS EC2 with RDS database',
+      tech: ['Django', 'Python', 'Stripe API', 'AWS'],
+      videoId: '3rk_n5tsVKM'
+    },
+    
+    {
       icon: '📺',
       title: 'Livestream Platform',
-      subtitle: 'Real-time Integration',
+      subtitle: 'Real-time Integration / Backend Engineer @ OxBridge Centre',
       description: 'Automated livestream room creation with BigBlueButton API integration for tutoring platform with real-time attendance tracking.',
       tech: ['PHP', 'BigBlueButton API', 'Scheduler', 'MySQL'],
       videoId: '5GB6coclB1k'
@@ -48,21 +57,12 @@ export default function Projects() {
     {
       icon: '📊',
       title: 'Test Report System',
-      subtitle: 'Data Visualization',
+      subtitle: 'Data Visualization / Backend Engineer @ OxBridge Centre',
       description: 'Automated report generation system with interactive data visualization using Chart.js for educational assessments.',
       tech: ['PHP', 'JavaScript', 'Chart.js', 'MySQL'],
       videoId: 'DIyMc7EP7jo'
-    },
-    {
-      icon: '📱',
-      title: 'React Native Mobile App',
-      subtitle: 'Cross-platform Development',
-      description: 'Cross-platform mobile application built with React Native and Expo featuring shared business logic and API integration.',
-      tech: ['React Native', 'Expo', 'JavaScript'],
-      links: [
-        { label: 'GitHub', url: '#' }
-      ]
     }
+    
   ]
 
   return (

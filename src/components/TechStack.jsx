@@ -12,10 +12,6 @@ export default function TechStack() {
       tags: ['React', 'Next.js', 'JavaScript', 'HTML/CSS', 'Bootstrap']
     },
     {
-      title: 'Mobile',
-      tags: ['React Native', 'Expo']
-    },
-    {
       title: 'Infrastructure',
       tags: ['AWS', 'Git', 'CI/CD']
     }
